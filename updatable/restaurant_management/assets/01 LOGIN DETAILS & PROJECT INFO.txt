@@ -1,0 +1,18 @@
+**Log on to codeastro.com for more projects!**
+
+**Database Name: restaurant_ci**
+
+**Developed by Bhuvnesha**
+
+**Recommended PHP Version 5.6.3 and Newer**
+
+
+**Admin Login Details**
+
+Email	: admin@gmail.com
+Password: password0101
+
+**Employee Login Details**
+
+Email	: veronica@gmail.com
+Password: password

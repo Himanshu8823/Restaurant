@@ -1,0 +1,79 @@
+/* Your custom CSS styles go here */
+.review {
+    text-align: center;
+    margin-left: 2%;
+}
+
+.review-slider {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.box {
+    background-color: #4c61ee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(100% / 3 - 20px); /* Adjust width based on the number of slides */
+    margin-right: 20px;
+    box-sizing: border-box;
+    
+}
+
+.box img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #555;
+}
+
+h3 {
+    color: #333;
+}
+
+/* Customize Swiper styles */
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    box-sizing: border-box;
+    float: left;
+}
+
+/* Clear floats after every three slides */
+.swiper-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.star-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: gold;
+    
+}
+
+.star {
+    width: 20px;
+    height: 20px;
+    
+    background-size: contain;
+    transition: transform 0.5s ease-in-out;
+}
+.filled {
+    background: url('path/to/filled-star.png') no-repeat;
+    background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+    .box {
+        width: calc(100% / 3 - 20px);;
+        margin-right: 20px;
+    }
+}

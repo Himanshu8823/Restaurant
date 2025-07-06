@@ -1,0 +1,56 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.dot-spinner {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    background-color: darkmagenta;
+    border-radius: 50%;
+    margin: 0 5px;
+    opacity: 0; /* Initially invisible */
+    animation: blink 1s infinite; /* Blinking animation */
+}
+
+.dot:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.dot:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+.dot:nth-child(5) {
+    animation-delay: 1s;
+}
+
+@keyframes blink {
+    0%, 50%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
